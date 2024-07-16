@@ -22,9 +22,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/pod' element={<Pod />} />
-      </Routes>
-      <Routes>
-        <Route path='/pod' element={null} />
         <Route path='/*' element={<>
           <O1 />
           <O2 />
