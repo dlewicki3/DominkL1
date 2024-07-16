@@ -55,6 +55,10 @@ justify-content: center;
     width: 100%;
     max-width: 1300px;
 }
+.pod
+{
+    background-color: green;
+}
 @media only screen and (max-width: 900px) {
     .k1
     {
