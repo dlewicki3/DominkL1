@@ -1,4 +1,3 @@
-// Importowanie potrzebnych modułów
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
