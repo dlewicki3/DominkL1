@@ -42,7 +42,7 @@ function O1() {
     <div className="o1">
       <div className="k1">
         <div className="content">
-        <a href='https://dlewicki3.github.io/Subpage/' className='pod'>O1</a>
+
           <p className='big-txt1'>SOCIAL MEDIA</p>
           <p className='big-txt2'>MANAGER</p>
           <p className='big-txt3'>PORTFOLIO</p>

@@ -57,11 +57,14 @@ const O11 = () => {
             <br />
             stały się rzeczywistością
           </p>
-          <br />
+          <br>
+          </br>
+          <br>
+          </br>
           <button className='btn-11'
          
           >Popracujmy razem!</button>
-          <button className='podstrona-btn'></button>
+   
         </div>
         <div className="right11">
           <img className='me-foto' src={Me} alt="Me"></img>

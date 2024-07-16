@@ -2,5 +2,162 @@
 {
     width: 100%;
     height: 957px;
- 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ background-color: black;
+}
+.k12
+{
+height: 80%;
+width: 100%;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: green;
+}
+.big-txt122
+{
+ font-size: 100px;
+}
+.left12
+{
+
+    width: 50%;
+    height: 100%;
+display: flex;
+flex-direction: column;
+background-color: orangered;
+}
+.right12
+{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+.contact
+{
+    width: 100%;
+    height: 100%;
+}
+.imienazwisko-txt
+{
+    font-size: 50px;
+}
+.small-txt12
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.top12
+{
+    width: 100%;
+    height: 50%;
+
+}
+.bottom12
+{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    
+}
+.left122
+{
+    width: 50%;
+    height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.right122
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.imienazwisko-txt2
+{
+font-weight: 600;
+font-size: 20px;
+}
+.imienazwisko-txt3
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.phone-email-txt
+{
+    font-weight: 600;
+    font-size: 21px;
+}
+.number,
+.mail
+{
+    font-weight: 500;
+}
+@media only screen and (max-width: 900px) {
+    .o12
+    {
+        height:900px;
+    }
+.k12
+{
+    width: 95%;
+    height: 100%;
+    background-color: orangered;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left12
+{
+    background-color: green;
+    width: 100%;
+    height: 50%;
+}
+.right12
+{
+    background-color: grey;
+    width: 100%;
+    height: 30%;
+}
+.big-txt122
+{
+    font-size: 60px;
+}
+.left122{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+}
+.right122
+{
+    width: 100%;
+    background-color:gold;
+    height: 100%;
+
+}
+.bottom12
+{
+    background-color: orangered;
+    flex-direction: column;
+}
+
+
 }
