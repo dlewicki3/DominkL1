@@ -63,9 +63,18 @@ display: flex;
 align-items: center;
 border: none;
 font-family: "Bodoni Moda", serif;
-
-
 }
+.pod
+{
+    height: 500px;
+    background-color: orangered;
+    width: 100%;   
+}
+
+
+
+
+
 @media only screen and (max-width: 900px) {
 .links{
     display: none;

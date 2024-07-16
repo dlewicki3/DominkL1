@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import "../components/O1.css";
+import "./O1.css";
 
 
 function O1() {

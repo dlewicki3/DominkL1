@@ -12,6 +12,14 @@ const Navbar = () => {
           <div className="link">About</div>
           <div className="link">Contact</div>
           <div className="link">Work</div>
+
+
+          <a href='/pod'>O1</a>
+
+
+
+
+
         </div>
         <button className="button1">
           Project request <MdOutlineKeyboardArrowRight size={16}/>
