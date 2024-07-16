@@ -1,0 +1,107 @@
+.o1
+{
+
+    height: 957px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.k1
+{
+    background-color:#eeeeee ;
+    height: 700px;
+    width: 100%;
+   display: flex;
+justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+}
+.content
+{
+    width: 100%;
+    max-width: 1200px;
+/* word-wrap: break-word; */
+}
+.big-txt1,
+.big-txt2,
+.big-txt3
+{
+    font-size: 120px;
+    font-weight: 500;
+}
+.under-content
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+
+}
+.blabla-txt-div
+{
+    text-align: right;
+  line-height: 1;
+
+    font-size: 20px;
+}
+.podstrona
+{
+    background-color: red;
+    height: 957px;
+    width: 100%;
+    max-width: 1300px;
+}
+@media only screen and (max-width: 900px) {
+    .k1
+    {
+        width: 95%;
+        height: 850px;
+       
+    }
+
+
+}
+@media only screen and (max-width: 750px) {
+    .content
+    {
+    
+        font-size: 90px;
+
+    }
+    .o1
+    {
+        height: 800px;
+
+    }
+    .big-txt1,
+.big-txt2,
+.big-txt3
+{
+    font-size: 90px;
+}
+.k1
+{
+
+    height: 800px;
+}
+
+}
+@media only screen and (max-width: 550px) {
+    .big-txt1,
+.big-txt2,
+.big-txt3
+{
+    font-size: 50px;
+}
+.small-txt1,
+.small-txt2,
+.small-txt3
+{
+    font-size: 16px;
+}
+
+}

@@ -1,0 +1,131 @@
+.o10
+{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.k10
+{
+
+    height: 90%;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left10
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.right10
+{
+    width: 50%;
+    height: 100%;
+text-align: right;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.rece
+{
+
+    height: 70%;
+    width: 100%;
+}
+.big-txt10
+{
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+}
+.small-txt10
+{
+ font-size: 25px;
+ font-weight: 600;
+ color: rgb(0, 0, 0);
+}
+.small-txt100,
+.small-txt1001,
+.small-txt10011,
+.small-txt100111,
+.small-txt1001111,
+.small-txt10011111
+{
+ font-size: 18px;
+ font-weight: 600;
+ color: rgb(0, 0, 0);
+}
+.na-txt10
+{
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+    .o10
+    {
+        height: 1700px;
+    }
+.k10
+{
+    width: 95%;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.left10
+{
+    width: 100%;
+    height: 50%;
+
+}
+.rece
+{
+    height: 100%;
+    width: 100%;
+}
+.right10
+{
+    width: 100%;
+
+}
+
+}
+@media only screen and (max-width: 850px) {
+    .big-txt10
+    {
+        font-size: 60px;
+    }
+    .small-txt10
+    {
+     font-size: 22px;
+     font-weight: 600;
+    }
+    .small-txt100
+    {
+     font-size: 16px;
+     font-weight: 600;
+    }
+
+    .o10
+    {
+        height: 1250px;
+    }
+
+
+}
+@media only screen and (max-width: 550px) {
+
+    .o10
+    {
+        height: 1100px;
+    }
+
+}
