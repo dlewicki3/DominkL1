@@ -16,7 +16,7 @@ max-width: 1200px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: green;
+
 }
 .big-txt122
 {
@@ -29,7 +29,7 @@ background-color: green;
     height: 100%;
 display: flex;
 flex-direction: column;
-background-color: orangered;
+
 }
 .right12
 {
@@ -40,7 +40,7 @@ background-color: orangered;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
+
 }
 .contact
 {
@@ -121,19 +121,19 @@ font-size: 20px;
 {
     width: 95%;
     height: 100%;
-    background-color: orangered;
+  
     flex-direction: column;
     justify-content: space-between;
 }
 .left12
 {
-    background-color: green;
+ 
     width: 100%;
     height: 50%;
 }
 .right12
 {
-    background-color: grey;
+   
     width: 100%;
     height: 30%;
 }
@@ -142,20 +142,20 @@ font-size: 20px;
     font-size: 60px;
 }
 .left122{
-    background-color: blueviolet;
+    
     width: 100%;
     height: 100%;
 }
 .right122
 {
     width: 100%;
-    background-color:gold;
+    
     height: 100%;
 
 }
 .bottom12
 {
-    background-color: orangered;
+ 
     flex-direction: column;
 }
 
