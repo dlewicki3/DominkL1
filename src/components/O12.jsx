@@ -15,7 +15,7 @@ function O12() {
    <div className="bottom12">
   <div className="left122">
     <p className='imienazwisko-txt2'>Dominik Lewicki</p>
-    <p className='imienazwisko-txt3'>Open for commissions</p>
+    <p className='imienazwisko-txt3'>Otwarty do współpracy</p>
   </div>
   <div className="right122">
     <p className='phone-email-txt'>Phone</p>
