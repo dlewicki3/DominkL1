@@ -32,7 +32,7 @@
     color: #EFE6DC;
     color: black;
     letter-spacing: -1.5px;
-
+    cursor: pointer;
   
 }
 .links
@@ -42,13 +42,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    cursor: pointer;
 
 }
 .link
 {
 
     font-size: 13px;
+   
 }
 .button1
 {
@@ -63,6 +64,7 @@ display: flex;
 align-items: center;
 border: none;
 font-family: "Bodoni Moda", serif;
+cursor: pointer;
 }
 .pod
 {
