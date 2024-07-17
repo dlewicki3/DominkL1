@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "./O2.css";
@@ -6,7 +6,7 @@ import Cos from './Pro.svg';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function O2() {
+const O2 = forwardRef((props, ref) => {
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -16,16 +16,16 @@ function O2() {
       }
     });
 
-    tl.fromTo(".foto",{ y: 50, opacity: 0 }, 
+    tl.fromTo(".foto", { y: 50, opacity: 0 }, 
         { y: 0, opacity: 1, duration: 0.4, delay: 0.1 })
-      .fromTo(".top2",  { y: 50, opacity: 0 }, 
+      .fromTo(".top2", { y: 50, opacity: 0 }, 
         { y: 0, opacity: 1, duration: 0.4, delay: 0.1 })
       .fromTo(".bottom2", { y: 50, opacity: 0 }, 
-        { y: 0, opacity: 1, duration: 0.4, delay: 0.1 } );
+        { y: 0, opacity: 1, duration: 0.4, delay: 0.1 });
   }, []);
 
   return (
-    <div className="o2">
+    <div className="o2" ref={ref}>
       <div className="k2">
         <div className="left2">
           <img className='foto' src={Cos} alt="Profile" />
@@ -38,7 +38,7 @@ function O2() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+});
 
 export default O2;

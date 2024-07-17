@@ -17,24 +17,28 @@ import Pod from './components/Pod';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
+  const o1Ref = useRef(null);
+  const o2Ref = useRef(null);
+  const o4Ref = useRef(null);
+  const o10Ref = useRef(null);
   const o12Ref = useRef(null);
 
   return (
     <div className='App'>
-      <Navbar o12Ref={o12Ref} />
+      <Navbar o1Ref={o1Ref} o12Ref={o12Ref} o2Ref={o2Ref} o4Ref={o4Ref} o10Ref={o10Ref} />
       <Routes>
         <Route path='/pod' element={<Pod />} />
         <Route path='/*' element={<>
-          <O1 />
-          <O2 />
+          <O1 ref={o1Ref} />
+          <O2 ref={o2Ref} />
           <O3 />
-          <O4 />
+          <O4 ref={o4Ref} />
           <O5 />
           <O6 />
           <O7 />
           <O8 />
           <O9 />
-          <O10 />
+          <O10 ref={o10Ref} />
           <O11 />
           <O12 ref={o12Ref} />
         </>} />

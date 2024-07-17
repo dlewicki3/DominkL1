@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "./O4.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function O4() {
+const O4 = forwardRef((props, ref) => {
   useEffect(() => {
     // Animation for .p1-txt
     gsap.fromTo(".p1-txt", 
@@ -33,14 +33,13 @@ function O4() {
           trigger: ".right4",
           start: "top 500px",
           end: "bottom 300px",
-       
         }
       }
     );
   }, []);
 
   return (
-    <div className="o4">
+    <div className="o4" ref={ref}>
       <div className="k4">
         <div className="left4">
           <p className='p1-txt'>01 -- Trendujące Audio</p>
@@ -51,6 +50,6 @@ function O4() {
       </div>
     </div>
   );
-}
+});
 
 export default O4;

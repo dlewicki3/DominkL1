@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "./O10.css";
@@ -6,7 +6,7 @@ import Rece from "./Rece.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function O10() {
+const O10 = forwardRef((props, ref) => {
   useEffect(() => {
     gsap.fromTo(".big-txt10", 
       { opacity: 0, y: 20 }, 
@@ -49,7 +49,7 @@ function O10() {
   }, []);
 
   return (
-    <div className="o10">
+    <div className="o10" ref={ref}>
       <div className="k10">
         <div className="left10">
           <img className='rece' src={Rece} alt="Rece"></img>
@@ -99,6 +99,6 @@ function O10() {
       </div>
     </div>
   );
-}
+});
 
 export default O10;

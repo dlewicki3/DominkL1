@@ -1,10 +1,8 @@
-
-import React, { useEffect } from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import { gsap } from 'gsap';
 import "./O1.css";
 
-
-function O1() {
+const O1 = forwardRef((props, ref) => {
   useEffect(() => {
     gsap.fromTo(
       ".big-txt1", 
@@ -39,10 +37,9 @@ function O1() {
   }, []);
 
   return (
-    <div className="o1">
+    <div className="o1" ref={ref}>
       <div className="k1">
         <div className="content">
-
           <p className='big-txt1'>SOCIAL MEDIA</p>
           <p className='big-txt2'>MANAGER</p>
           <p className='big-txt3'>PORTFOLIO</p>
@@ -59,6 +56,6 @@ function O1() {
       </div>
     </div>
   );
-}
+});
 
 export default O1;
