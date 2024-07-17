@@ -39,8 +39,8 @@ justify-content: center;
 }
 .big-txt11
 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
 }
 .btn-11
 {
@@ -81,7 +81,7 @@ border: 1px solid black;
 }
 .big-txt11
 {
-    font-size: 35px;
+    font-size: 28px;
     word-break: break-all;
 }
 
@@ -90,7 +90,7 @@ border: 1px solid black;
 @media only screen and (max-width: 780px) {
     .o11
 {
-    height: 1100px;
+    height: 1400px;
 
 }
 .k11
@@ -102,15 +102,14 @@ border: 1px solid black;
 
 .left11
 {
-    height: 40%;
+    height: 50%;
     width: 100%;
 }
 .right11
 {
-    height: 60%;
+    height: 50%;
     width: 100%;
     padding-bottom: 50px;
- 
 }
 .me-foto
 {
@@ -119,6 +118,11 @@ border: 1px solid black;
 }
 .big-txt11
 {
-    font-size: 30px;
+    font-size: 25px;
+}
+.btn-11
+{
+    width: 270px;
+    font-size: 16px;
 }
 }

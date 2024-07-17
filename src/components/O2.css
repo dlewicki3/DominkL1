@@ -89,7 +89,6 @@ font-size: 20px;
 .k2
 {
     flex-direction: column;
-  border: 0px;
     justify-content: space-between;
 }
 .left2
@@ -97,8 +96,6 @@ font-size: 20px;
     width: 100%;
     height: 46%;
     display: flex;
-    border-top: 1px solid black;
-    border-right: 0px;
     justify-content: center;
 
 }
