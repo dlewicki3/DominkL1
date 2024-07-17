@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import O1 from './components/O1';
@@ -17,9 +17,11 @@ import Pod from './components/Pod';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
+  const o12Ref = useRef(null);
+
   return (
     <div className='App'>
-      <Navbar />
+      <Navbar o12Ref={o12Ref} />
       <Routes>
         <Route path='/pod' element={<Pod />} />
         <Route path='/*' element={<>
@@ -34,7 +36,7 @@ function App() {
           <O9 />
           <O10 />
           <O11 />
-          <O12 />
+          <O12 ref={o12Ref} />
         </>} />
       </Routes>
     </div>
