@@ -55,6 +55,9 @@ font-weight: 600;
 cursor: pointer;
 text-decoration: none;
 border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 @media only screen and (max-width: 950px) {
     .o13{

@@ -57,7 +57,7 @@ function O13() {
           <p className="big-txt13">Sprawdź moje dotychczasowe realizacje</p>
           <br />
           <br />
-          <button className="btn-13">Sprawdź to</button>
+          <a className="btn-13" href="https://dlewicki3.github.io/Subpage">Sprawdź to</a>
         </div>
         <div className="right13">
           <img className="ja-foto" src={Ja1} alt="Ja" />
