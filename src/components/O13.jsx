@@ -36,7 +36,7 @@ function O13() {
 
     gsap.fromTo(
       ".ja-foto",
-      { opacity: 0,  x: 20 },
+      { opacity: 0,  y: 20 },
       {
         opacity: 1, y: 0, x: 0, duration: 0.6, ease: "power3.out", delay: 0.4,
         scrollTrigger: {

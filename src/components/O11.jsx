@@ -21,11 +21,11 @@ const O11 = () => {
       }
     );
 
-    gsap.fromTo(".btn-11", 
+    gsap.fromTo(".small-txt11", 
       { opacity: 0, y: 20 }, 
       { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", 
         scrollTrigger: {
-          trigger: ".btn-11",
+          trigger: ".small-txt11",
           start: "top 500px",
           end: "bottom 300px",
      
@@ -61,9 +61,9 @@ const O11 = () => {
           </br>
           <br>
           </br>
-          <button className='btn-11'
+        
          
-          >Popracujmy razem!</button>
+          <p className='small-txt11'>Popracujmy razem!</p>
    
         </div>
         <div className="right11">
