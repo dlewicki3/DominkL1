@@ -17,7 +17,6 @@ function O13() {
           trigger: ".big-txt13",
           start: "top 80%",
           end: "top 50%",
-  
         }
       }
     );
@@ -31,7 +30,6 @@ function O13() {
           trigger: ".btn-13",
           start: "top 80%",
           end: "top 50%",
-        
         }
       }
     );
@@ -50,6 +48,11 @@ function O13() {
     );
   }, []);
 
+  const handleButtonClick = () => {
+    console.log("Button clicked!");
+    window.location.href = 'https://dlewicki3.github.io/Subpage/';
+  };
+
   return (
     <div className="o13">
       <div className="k13">
@@ -57,7 +60,9 @@ function O13() {
           <p className="big-txt13">Sprawdź moje dotychczasowe realizacje</p>
           <br />
           <br />
-          <a className="btn-13" href="https://dlewicki3.github.io/Subpage">Sprawdź to</a>
+          <button className="btn-13" onClick={handleButtonClick}>
+            Kliknij tutaj
+          </button>
         </div>
         <div className="right13">
           <img className="ja-foto" src={Ja1} alt="Ja" />
