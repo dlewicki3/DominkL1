@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DominkL1/static/css/main.0cccd0a3.css",
-    "main.js": "/DominkL1/static/js/main.1219a323.js",
+    "main.css": "/DominkL1/static/css/main.c16af521.css",
+    "main.js": "/DominkL1/static/js/main.37ff5a50.js",
     "static/js/453.7ced37f7.chunk.js": "/DominkL1/static/js/453.7ced37f7.chunk.js",
     "static/media/Ja1.svg": "/DominkL1/static/media/Ja1.257072fdee71ce552efe2a3e3f58eff9.svg",
     "static/media/Me.svg": "/DominkL1/static/media/Me.e4a21422ce44d4f35e73d34beb72d686.svg",
     "static/media/Rece.svg": "/DominkL1/static/media/Rece.cf9a1bd0ffeea1a4e19db010c19fbffc.svg",
     "static/media/Pro.svg": "/DominkL1/static/media/Pro.e620f3efd24808f80b9db98f048e8f93.svg",
     "index.html": "/DominkL1/index.html",
-    "main.0cccd0a3.css.map": "/DominkL1/static/css/main.0cccd0a3.css.map",
-    "main.1219a323.js.map": "/DominkL1/static/js/main.1219a323.js.map",
+    "main.c16af521.css.map": "/DominkL1/static/css/main.c16af521.css.map",
+    "main.37ff5a50.js.map": "/DominkL1/static/js/main.37ff5a50.js.map",
     "453.7ced37f7.chunk.js.map": "/DominkL1/static/js/453.7ced37f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cccd0a3.css",
-    "static/js/main.1219a323.js"
+    "static/css/main.c16af521.css",
+    "static/js/main.37ff5a50.js"
   ]
 }
