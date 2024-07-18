@@ -18,7 +18,7 @@ text-align: left;
 }
 .big-txt13
 {
-    font-size: 50px;
+  font-size: 50px;
 }
 .left13
 {
@@ -59,12 +59,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.redirect-btn
-{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-}
+
 @media only screen and (max-width: 950px) {
     .o13{
         height: 1100px;
@@ -89,7 +84,7 @@ align-items: center;
 .big-txt13
 {
     font-size: 40px;
-    word-break: break-all;
+
 }
 }
 @media only screen and (max-width: 550px) {
