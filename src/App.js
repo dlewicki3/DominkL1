@@ -13,6 +13,7 @@ import O9 from './components/O9';
 import O10 from './components/O10';
 import O11 from './components/O11';
 import O12 from './components/O12';
+import O13 from './components/O13';
 import Pod from './components/Pod';
 import { Routes, Route } from 'react-router-dom';
 
@@ -38,9 +39,11 @@ function App() {
           <O7 />
           <O8 />
           <O9 />
+          <O13/>
           <O10 ref={o10Ref} />
           <O11 />
           <O12 ref={o12Ref} />
+   
         </>} />
       </Routes>
     </div>

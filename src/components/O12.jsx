@@ -14,7 +14,7 @@ const O12 = forwardRef((props, ref) => {
           <div className="bottom12">
             <div className="left122">
               <p className='imienazwisko-txt2'>Dominik Lewicki</p>
-              <p className='imienazwisko-txt3'>Otwarty do współpracy</p>
+              <p className='imienazwisko-txt3'>Ready to work</p>
             </div>
 
             <div className="right122">
