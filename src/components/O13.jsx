@@ -57,7 +57,7 @@ function O13() {
     <div className="o13">
       <div className="k13">
         <div className="left13">
-          <p className="big-txt13">Sprawdź moje dotychczasowe realizacje</p>
+          <p className="big-txt13">Sprawdź moje dotychczasowe statystyki</p>
           <br />
           <br />
           <button className="btn-13" onClick={handleButtonClick}>

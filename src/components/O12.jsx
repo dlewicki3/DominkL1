@@ -24,7 +24,7 @@ const O12 = forwardRef((props, ref) => {
               <br></br>
               <p className='phone-email-txt'>Email</p>
               <br></br>
-              <p className='mail'>dominik_03-6@wp.pl</p>
+              <p className='mail'>dominik_03-06@wp.pl</p>
             </div>
             
           </div>
